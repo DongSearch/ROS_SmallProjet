@@ -27,8 +27,8 @@ int32 onoff(50 on, 0 off for visualization)
 
 
 ### Troblue Shooting
-1. not working ctrl + C(not available to do exit) -> because sys.stdin.read(1) induces blocking
--> setcbreak(fd) -> it keep ctrl+c as interrupt signal
+1. not working ctrl + C(not available to do exit) -> because sys.stdin.read(1) induces blocking  
+-> setcbreak(fd) -> it keep ctrl+c as interrupt signal  
 -> select(read_list, write_list, except_list, timeout) they check if there is input every 0.1s -> keep from staying in infinite read waiting
 ```
 def getch(self):
@@ -56,8 +56,8 @@ change
 ```
 
 
-2. when you turn off , terminal don't display anything, but when to check plot-graph, it still generates values, not 0
-- > when turning off, it put 0 to values of temp and hum
+2. when you turn off , terminal don't display anything, but when to check plot-graph, it still generates values, not 0  
+-> when turning off, it put 0 to values of temp and hum  
 
 <img width="1812" height="714" alt="image" src="https://github.com/user-attachments/assets/1b7d65e4-802f-4a83-bd9e-3b5b10b9a9dd" />
 
