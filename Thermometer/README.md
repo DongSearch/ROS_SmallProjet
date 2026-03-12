@@ -1,6 +1,6 @@
 # Thermometer
 
-## Object
+## Objective
 send and receivce messages using Toptic message
 ## Function
 - randomly generate value of humidity(float) and temperature(float)
@@ -73,3 +73,8 @@ def getch(self):
     termios.tcsetattr(fd, termios.TCSADRAIN,old_setting) # restore to termial mode
 return ch
 ```
+
+!! why not input()? 
+- if we use input(), it means we have to wait until input to come in
+- also it needs enter to put in it
+- read way is totally different from the way we want 
