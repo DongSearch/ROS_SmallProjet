@@ -57,10 +57,12 @@ change
 
 
 2. when you turn off , terminal don't display anything, but when to check plot-graph, it still generates values, not 0
-- > when turning off, it put 0 to values of temp and hum  
+- > when turning off, it put 0 to values of temp and hum
+
 <img width="1812" height="714" alt="image" src="https://github.com/user-attachments/assets/1b7d65e4-802f-4a83-bd9e-3b5b10b9a9dd" />
 
 ### Appendix
+
 ```
 def getch(self):
   fd = sys.stdin.fileno() #load file descriptor in stdin, terminal input is taken as file in Linux
