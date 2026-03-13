@@ -61,6 +61,18 @@ change
 
 <img width="1812" height="714" alt="image" src="https://github.com/user-attachments/assets/1b7d65e4-802f-4a83-bd9e-3b5b10b9a9dd" />
 
+3. when using launch file, it is not possible to put key-input
+   -> here for practice, I only make subscriber to launch file
+
+4. when to make launch file, it is needed to check name-space name
+
+   t1/information
+   infromation
+
+   
+
+
+
 ### Appendix
 
 ```
