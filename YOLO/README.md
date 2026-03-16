@@ -3,7 +3,7 @@ using Yolo + ROS2 + Deep learning, I would like to develop a model that can capt
 first objective is just simple hand movement like one finger, two finger, fist, or five
 next objective is following my entire hand movement
 
-# Consist
+# Consist 
 ## ROS2
 - Topic : Camera-publisher, Yolo_subscrition(detection)
 - Service : Yolo_onoff client/server
@@ -13,7 +13,7 @@ next objective is following my entire hand movement
 
 # Conclusion
 - on/off function(pusing o,f button, yolo can be turned on/off)
-
+![example](images/on.png)   ![example](images/off.png)
 
 
 
