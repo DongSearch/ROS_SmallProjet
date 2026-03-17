@@ -1,7 +1,7 @@
 # Gesture Recognition Robot
-using Yolo + ROS2 + Deep learning, I would like to develop a model that can capture gesture from humain, and it can follow to move in virtual space.
-first objective is just simple hand movement like one finger, two finger, fist, or five
-next objective is following my entire hand movement
+using Yolo + ROS2 + Deep learning, I would like to develop a model that can capture gesture from humain, and it can follow to move in virtual space.   
+first objective is just simple hand movement like one finger, two finger, fist, or five    
+next objective is following my entire hand movement    
 
 # Consist 
 ## ROS2
