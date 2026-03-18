@@ -20,3 +20,4 @@ next objective is following my entire hand movement
 # My Jouney
 - 3/14 create package Yolo
 - 3/16 seperate function of cam, yolo, and add on/off function
+- 3/18 add temp_publisher(to send a message for command), and move to turtlesim for test
