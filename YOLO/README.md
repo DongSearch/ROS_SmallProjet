@@ -12,9 +12,13 @@ next objective is following my entire hand movement
 ## Diagram
 
 # Conclusion
-- on/off function(pusing o,f button, yolo can be turned on/off)
+
+# Experiment(Journey)
+- on/off function(pusing o,f button, yolo can be turned on/off) - 3/16
 ![example](images/on.png)   ![example](images/off.png)
 
+- move turtlesim using input command in terminal(it should be object detection in the future) - 3/18
+![move](images/test_move.png)
 
 
 # My Jouney
