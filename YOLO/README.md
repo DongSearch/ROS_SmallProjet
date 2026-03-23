@@ -25,3 +25,12 @@ using Yolo + ROS2 + Deep learning, I would like to develop a model that can capt
 - 3/14 create package Yolo
 - 3/16 seperate function of cam, yolo, and add on/off function
 - 3/18 add temp_publisher(to send a message for command), and move to turtlesim for test
+- 3/22 Data collection
+- 3/23 Data Supplement(class 5,0,1 not enough)
+
+
+# Trouble shooting
+1. data imbalance
+<img width="809" height="238" alt="image" src="https://github.com/user-attachments/assets/6a9efce0-dd7b-46af-8ef6-7fa904143d38" />
+
+- data supplement
