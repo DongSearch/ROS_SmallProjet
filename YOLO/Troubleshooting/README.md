@@ -8,3 +8,9 @@
   After separating the nodes, the pipeline worked properly without freezing.
 
 ![result](../images/QT_freeze.png)
+
+
+# Data imbalance
+- data supplement
+<img width="809" height="238" alt="image" src="https://github.com/user-attachments/assets/6a9efce0-dd7b-46af-8ef6-7fa904143d38" />
+
