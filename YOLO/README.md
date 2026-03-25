@@ -27,3 +27,4 @@ using Yolo + ROS2 + Deep learning, I would like to develop a model that can capt
 - 3/18 add temp_publisher(to send a message for command), and move to turtlesim for test
 - 3/22 Data collection
 - 3/23 Data Supplement(class 5,0,1 not enough)
+- 3/25 training
