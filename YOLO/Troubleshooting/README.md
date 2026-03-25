@@ -16,5 +16,24 @@
 
 # Misclassification
 - fist and five can be classified well, but the other classes have a quite high misclassification rate by taking as neighboring finger number  like 3,5 if it is 4
+- 3/25
+```
+model = YOLO("yolov8n.pt")
+model.train(
+    data ="data.yaml",
+    project ="/content/drive/MyDrive/personal_proj1",
+    epochs = 50,
+    freeze = 0, # freeze 0~15 small dataset -> freeze 15
+    # augumentation
+    hsv_h =0.015,
+    hsv_s = 0.7,
+    hsv_v = 0.4,
+    degrees=10,
+    translate=0.1,
+    scale=0.5,
+    flipud=0.0,
+    fliplr=0.5
+)
+```
 <img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/b8c80624-f823-4d27-bfa5-c6d6b68b0509" />
 <img width="3000" height="2250" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/9284f599-8a7c-42ee-b10d-923dea2d746e" />
